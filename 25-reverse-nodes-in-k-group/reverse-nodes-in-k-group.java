@@ -36,7 +36,7 @@ class Solution {
         if(c>0){
             return prev; //for last element
         }
-        head.next=reverseKGroup(temp,k);
+        head.next=reverseKGroup(next,k);
         return prev;
     }
 }
